@@ -157,6 +157,171 @@ line-height: 20px; */
 .aikija{
     border: 1px solid #7C0B0B;
     border-radius: 10px;
+height: 328px;
+    width: 366px;
     
 
+}
+.hdaya{
+    font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        color: black;
+}
+
+
+.wahid{
+    border: 1px solid #7C0B0B;
+    height: 198px;
+        width: 267px;
+        border-radius: 30px;
+        background-color: #7C0B0B;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+
+.wahid h1{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+color: white;
+}
+
+.wahid p{
+    font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        color: white;
+}
+
+.membobi button{
+
+height: 40px;
+    width: 83px;
+    border-radius: 10px;
+    padding: 10px;
+   background-color: #7C0B0B;
+font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-top: 30px;
+    
+}
+
+.testi h1{
+    font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        color: black;
+}
+.testi p{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: #7C0B0B;
+}
+
+.martani{
+    height: 328px;
+        width: 366px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba(124, 11, 11, 0.4);
+}
+
+.martani .danmartani{
+    align-items: center;
+    text-align: end;
+    gap: 20px;
+
+}
+
+.martani p{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+}
+
+.danmartani p{
+    font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0em;
+        color: black;
+
+}
+
+.mysub h1{
+    font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+color: black;
+}
+
+.mysub p{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+       color: #7C0B0B;
+}
+
+
+.sandata .sanda1{
+background: white;
+height: 54px;
+    width: 560px;
+    border-radius: 30px;
+    border: 2px solid #7C0B0B;
+    outline: none;
+    margin-left: 170px;
+
+}
+
+.sandata .sanda2{
+height: 54px;
+    width: 164px;
+    border-radius: 30px;
+    background-color:#7C0B0B;
+    outline: none;
+    border: none;
+    color: white;
+    position: relative;
+    right:170px
+
+}
+
+.sandata input::placeholder{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+       color: #7C0B0B;
+       padding: 25px;
+       box-sizing: border-box;
 }
