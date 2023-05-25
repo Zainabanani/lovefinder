@@ -6,9 +6,7 @@
     box-sizing: border-box;
     font-family: montserrat, sans-serif;
 }
-body{
-    border: 1px solid red;
-}
+
 /* comment on css */
 
 .hero-section{
@@ -43,6 +41,9 @@ body{
 }
 .myborder{
     border: 1px solid #7C0B0B;
+    /* height: 651px;
+        width: 587px;
+        border-radius: 0px; */
 }
 .formside input{
     border: 1px solid #7C0B0B;
@@ -50,9 +51,112 @@ body{
 }
 .formside input::placeholder{
     color: #7C0B0B;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+       
 }
 /* 
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 20px; */
+
+.nafarko{
+    height: 651px;
+        width: 587px;
+        border-radius: 0%;
+}
+
+.hotonafarko{
+    height: 651px;
+        width: 558px;
+        border-radius: 50px;
+}
+
+.nafarko button{
+    background-color: #7C0B0B;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.sabo ul li .home{
+   color: #7C0B0B;
+}
+.sabo ul button{
+    background-color: #7C0B0B;
+    height: 40px;
+        width: 137px;
+        border-radius: 10px;
+        padding: 10px;
+}
+
+.sabo ul{
+    gap: 16px;
+}
+
+.sabo ul li a{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+       
+}
+
+.amu{
+    font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        
+}
+
+.pfarko{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+}
+
+.aiki{
+    font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+       
+}
+
+.aikija h1{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+        
+}
+
+.aikija p{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+}
+
+.aikija{
+    border: 1px solid #7C0B0B;
+    border-radius: 10px;
+    
+
+}
