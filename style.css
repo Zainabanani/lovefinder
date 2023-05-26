@@ -325,3 +325,100 @@ height: 54px;
        padding: 25px;
        box-sizing: border-box;
 }
+
+.futana{
+    
+    width: 100%;
+    background-color: #7C0B0B;
+}
+
+.qarshe{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.gidan-farko{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 112px;
+        width: 695px;
+        border-radius: 30px;
+        
+
+}
+
+.gidan-farko button{
+height: 40px;
+    width: 144.3169403076172px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7C0B0B;
+    color: white;
+    border: none;
+    margin-top: 25px;
+    margin-right: 25px;
+    
+}
+
+
+   
+
+
+.qoqo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.damahagu h3{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: white;
+}
+
+.otun h3{
+font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+color: white;
+}
+
+.eklips{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+    
+}
+.eklips img {
+    height: 93px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 70px; }
+
+.eklips h5{
+    font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+}
+
+/* @media(min-width-1024px){
+    .hotonafarko{
+        height: 400px;
+            width: 100%;
+            border-radius: 30px;
+    }
+} */
