@@ -449,10 +449,438 @@ color: white;
     right: 100px;
 }
 
-/* @media(min-width-1024px){
-    .hotonafarko{
-        height: 400px;
-            width: 100%;
-            border-radius: 30px;
+@media(max-width: 800px){
+body {
+        width: 100%;
+        height: 100vh;
     }
-} */
+
+
+
+
+    .hero-section {
+        background-image: url(./images/Rectangle\ 1\ \(1\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: calc(100vh - 100px);
+    }
+
+    .hero-section h1 {
+
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+
+    }
+
+    .hero-section button {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        color: #7C0B0B;
+        background-color: white;
+        width: 147px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .mycolor {
+        color: #7C0B0B;
+    }
+
+    .myborder {
+        border: 1px solid #7C0B0B;
+        
+    }
+
+    .formside input {
+        border: 1px solid #7C0B0B;
+        outline: none;
+    }
+
+    .formside input::placeholder {
+        color: #7C0B0B;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+
+    }
+
+    
+    .nafarko {
+        height: 600px;
+        width: 587px;
+        border-radius: 0%;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .hotonafarko {
+        height: 600px;
+        width: 100%;
+        border-radius: 50px;
+        position: relative;
+        bottom: 70px;
+    }
+
+.habamana{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    bottom: 90px;
+}
+
+    .sabo ul {
+        gap: 16px;
+    }
+
+    .sabo ul li a {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+
+    }
+
+    .amu {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+
+    }
+
+    .pfarko {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .aiki {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: black;
+        position: relative;
+        bottom: 90px
+
+    }
+
+.membo{
+    display: block;
+    flex-direction: column;
+    gap: 20px;
+}
+    .aikija p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+    }
+
+    .aikija {
+        border: 2px solid #7C0B0B;
+        border-radius: 10px;
+        height: 400px;
+        width:600px;
+    }
+
+    .hdaya {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        color: black;
+    }
+
+
+    .wahid {
+        border: 1px solid #7C0B0B;
+        height: 230px;
+        width: 350px;  
+        border-radius: 30px;
+        background-color: #7C0B0B;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+.mamba{
+    position: relative;
+    bottom: 40px;
+}
+    .wahid h1 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: white;
+    }
+
+    .wahid p {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        color: white;
+    }
+
+    .membobi button {
+
+        height: 40px;
+        width: 130px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #7C0B0B;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        margin-top: 30px;
+        position: relative;
+        bottom: 50px;
+
+    }
+
+    .testi{
+        position: relative;
+        bottom: 60px;
+    }
+
+    .rhoda{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        bottom: 90px;
+    }
+    .testi h1 {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: 0em;
+        color: black;
+    }
+
+    .testi p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: #7C0B0B;
+    }
+
+    .martani {
+        height: 328px;
+        width: 366px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: rgba(124, 11, 11, 0.4);
+    }
+
+    .martani .danmartani {
+        align-items: center;
+        text-align: end;
+        gap: 20px;
+
+    }
+
+    .martani p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+    }
+
+    .danmartani p {
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0em;
+        color: black;
+
+    }
+.mysub{
+    position: relative;
+    bottom: 120px;
+}
+
+
+
+    .sandata .sanda1 {
+        background:white;
+        height: 54px;
+        width: 290px;
+        border-radius: 30px;
+        border: 2px solid #7C0B0B;
+        outline: none;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+        
+
+    }
+
+    .sandata .sanda2 {
+        height: 54px;
+        width: 164px;
+        border-radius: 30px;
+        background-color: #7C0B0B;
+        outline: none;
+        border: none;
+        color: white;
+        position: relative;
+        left: 10px;
+        bottom: 20px;
+    }
+
+    .futana {
+
+        width: 100vw;
+        background-color: #7C0B0B;
+    }
+
+    .qarshe {
+        display: flex;
+        justify-content: space-between;
+        gap: 200px;
+    }
+
+    .gidan-farko {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+        height: 112px;
+        width: 695px;
+        border-radius: 30px;
+        margin-left: 10px;
+
+    }
+
+
+    .gidan-farko button {
+        height: 40px;
+        width: 144.3169403076172px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #7C0B0B;
+        color: white;
+        border: none;
+        margin-top: 35px;
+        margin-right: 50px;
+        text-align: start;
+
+    }
+
+
+
+
+    .qoqo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+
+    .damahagu h3 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: white;
+    }
+
+    .otun h3 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: white;
+    }
+
+
+    .eklips {
+        height: 112px;
+        width: 695px;
+        border-radius: 30px;
+        padding-left: 30px;
+    }
+
+    .eklips {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .eklips img {
+        height: 93px;
+        width: 100px;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+
+    .eklips h6 {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        color: black;
+        padding-left: 20px;
+        position: relative;
+        bottom: 20px;
+        /* margin-bottom: 80px; */
+
+    }
+
+
+    .damahagu {
+        margin-top: 40px;
+    }
+
+    .otun {
+        margin-top: 40px;
+    }
+
+
+    .damahagu,
+    .otun {
+
+        position: relative;
+        right: 100px;
+    }
+
+}
