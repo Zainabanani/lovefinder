@@ -349,7 +349,17 @@ height: 54px;
         width: 695px;
         border-radius: 30px;
         margin-left: 10px;
+        position: relative;
+        right: 130px;
         
+}
+
+.icons{
+    display: flex;
+    gap: 25px;
+position: relative;
+right: 100px;
+
 }
 
 
@@ -374,7 +384,9 @@ height: 40px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 20px;
+    gap: 60px;
+    position: relative;
+    right: 100px;
 
 }
 
@@ -429,7 +441,6 @@ color: white;
         padding-left: 20px;
         position: relative;
         bottom: 20px;
-        /* margin-bottom: 80px; */
 
 }
 
@@ -440,6 +451,8 @@ color: white;
 
 .otun{
     margin-top: 40px;
+    position: relative;
+    right: 80px;
 }
 
 
@@ -803,13 +816,13 @@ body {
 
 
 
-    .qoqo {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        gap: 20px;
-
-    }
+   .qoqo {
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+       gap: 60px;
+       position: relative;
+       right: 100px;}
 
 
     .damahagu h3 {
@@ -882,5 +895,13 @@ body {
         position: relative;
         right: 100px;
     }
+
+        .icons {
+            display: flex;
+            gap: 25px;
+            position: relative;
+            right: 100px;
+    
+        }
 
 }
