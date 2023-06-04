@@ -7,10 +7,8 @@
     font-family: montserrat, sans-serif;
 }
 body{
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
 }
-/* comment on css */
 
 .hero-section{
     background-image: url(./images/Rectangle\ 1\ \(1\).png);
@@ -136,6 +134,10 @@ line-height: 20px; */
         text-align: center;
         color: black;
        
+}
+
+.habamana{
+    justify-content: space-evenly;
 }
 
 .aikija h1{
@@ -331,7 +333,7 @@ height: 54px;
 
 .futana{
     
-    width: 1440px;
+    width: 100%;
     background-color: #7C0B0B;
 }
 
@@ -351,6 +353,8 @@ height: 54px;
         margin-left: 10px;
         position: relative;
         right: 130px;
+        margin-left: 150px;
+        
         
 }
 
@@ -359,6 +363,7 @@ height: 54px;
     gap: 25px;
 position: relative;
 right: 100px;
+margin-left:150px ;
 
 }
 
@@ -539,12 +544,7 @@ body {
         bottom: 70px;
     }
 
-.habamana{
-    display: block;
-    flex-direction: column;
-    position: relative;
-    bottom: 90px;
-}
+
 
     .sabo ul {
         gap: 16px;
@@ -596,95 +596,48 @@ body {
     flex-direction: column;
     gap: 20px;
 }
-    .aikija p {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        letter-spacing: 0em;
-        color: black;
-    }
+    
 
-    .aikija {
-        border: 2px solid #7C0B0B;
-        border-radius: 10px;
-        height: 400px;
-        width:600px;
-    }
+   .habamana{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+   }
 
-    .hdaya {
-        font-family: Montserrat;
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 37px;
-        letter-spacing: 0em;
-        color: black;
-    }
-
-
-    .wahid {
-        border: 1px solid #7C0B0B;
-        height: 230px;
-        width: 350px;  
-        border-radius: 30px;
-        background-color: #7C0B0B;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-.mamba{
+.aikija{
+    text-align: center;
+    height: 10%;
+    width: 500px;
+    border-radius: 10px;
     position: relative;
-    bottom: 40px;
+    bottom: 80px;
 }
-    .wahid h1 {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        color: white;
-    }
+    
 
-    .wahid p {
-        font-family: Montserrat;
-        font-size: 12px;
-        font-weight: 500;
-        line-height: 15px;
-        letter-spacing: 0em;
-        color: white;
-    }
+.membobi
+{
+position: relative;
+bottom: 120px;
+
+}
+
 
     .membobi button {
-
-        height: 40px;
-        width: 130px;
-        border-radius: 10px;
-        padding: 10px;
-        background-color: #7C0B0B;
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        letter-spacing: 0em;
-        margin-top: 30px;
-        position: relative;
-        bottom: 50px;
-
+margin-top: 0px;
     }
 
     .testi{
         position: relative;
-        bottom: 60px;
+        bottom: 180px;
     }
 
     .rhoda{
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 40px;
         position: relative;
-        bottom: 90px;
+        bottom: 180px;
     }
     .testi h1 {
         font-family: Montserrat;
@@ -693,6 +646,8 @@ body {
         line-height: 37px;
         letter-spacing: 0em;
         color: black;
+        position: relative;
+        top: 50px;
     }
 
     .testi p {
@@ -702,7 +657,21 @@ body {
         line-height: 20px;
         letter-spacing: 0em;
         color: #7C0B0B;
+        position: relative;
+        top: 50px;
     }
+
+    .mamba{
+        position: relative;
+        bottom: 45px;
+    }
+
+.newsletter{
+    position: relative;
+    bottom: 10px;
+}
+
+
 
     .martani {
         height: 328px;
@@ -744,7 +713,10 @@ body {
     bottom: 120px;
 }
 
-
+.mysub p{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
 
     .sandata .sanda1 {
         background:white;
@@ -762,146 +734,85 @@ body {
 
     }
 
-    .sandata .sanda2 {
-        height: 54px;
-        width: 164px;
-        border-radius: 30px;
-        background-color: #7C0B0B;
-        outline: none;
-        border: none;
-        color: white;
-        position: relative;
-        left: 10px;
-        bottom: 20px;
-    }
 
+    .sandata .sanda2{
+        width: 290px;
+        height: 60px;
+        position: relative;
+            left: 10px;
+            bottom: 20px;
+    }
     .futana {
+  width: 100%
+}
 
-        width: 100vw;
-        background-color: #7C0B0B;
-    }
+ .qarshe {
+     display: block;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+}
 
-    .qarshe {
-        display: flex;
-        justify-content: space-between;
-        gap: 200px;
-    }
+.gidan-farko {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 112px;
+    width: 340px;
+    border-radius: 30px;
+    margin-left: 110px;
+    gap: px;
 
-    .gidan-farko {
-        display: flex;
-        justify-content: space-evenly;
-        background-color: white;
-        height: 112px;
-        width: 695px;
-        border-radius: 30px;
-        margin-left: 10px;
-
-    }
-
-
-    .gidan-farko button {
-        height: 40px;
-        width: 144.3169403076172px;
-        border-radius: 10px;
-        padding: 10px;
-        background-color: #7C0B0B;
-        color: white;
-        border: none;
-        margin-top: 35px;
-        margin-right: 50px;
-        text-align: start;
-
-    }
-
-
-
-
-   .qoqo {
-       display: flex;
-       justify-content: space-evenly;
-       align-items: center;
-       gap: 60px;
-       position: relative;
-       right: 100px;}
-
-
-    .damahagu h3 {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        letter-spacing: 0em;
-        color: white;
-    }
-
-    .otun h3 {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        letter-spacing: 0em;
-        color: white;
-    }
-
-
-    .eklips {
-        height: 112px;
-        width: 695px;
-        border-radius: 30px;
-        padding-left: 30px;
-    }
-
-    .eklips {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
-    }
-
-    .eklips img {
-        height: 93px;
-        width: 100px;
-        padding-left: 20px;
-        margin-top: 20px;
-    }
-
-    .eklips h6 {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        color: black;
-        padding-left: 20px;
-        position: relative;
-        bottom: 20px;
-        /* margin-bottom: 80px; */
-
-    }
-
-
-    .damahagu {
-        margin-top: 40px;
-    }
-
-    .otun {
-        margin-top: 40px;
-    }
-
-
-    .damahagu,
-    .otun {
-
-        position: relative;
-        right: 100px;
-    }
-
-        .icons {
-            display: flex;
-            gap: 25px;
-            position: relative;
-            right: 100px;
     
-        }
 
 }
+
+.gidan-farko button {
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7C0B0B;
+    color: white;
+    border: none;
+    margin-top: 35px;
+    margin-right: 50px;
+    text-align: start;
+
+}
+
+.qoqo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40px;
+}
+
+.otun {
+    margin-top: 40px;
+    position: relative;
+    bottom: 100px;
+}
+
+.damahagu{
+    position: relative;
+    right: 123px;
+}
+
+
+.icons {
+    display: flex;
+    gap: 25px;
+    position: relative;
+    right: 140px;
+    bottom: 90px;
+    margin-left: 150px;
+
+}
+}
+
+
+
+
